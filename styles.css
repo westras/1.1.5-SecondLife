@@ -75,15 +75,12 @@ article {
     border: 2px solid black;
     padding: 10px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:calc(100% - 1.6em);
     gap: 1rem;
-    width:calc(100% - 1.6em); 
-    height:calc(100% - 1.6em);
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
     border-radius: 5px;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    justify-items: center;
     transition: transform 0.2s;
 }
 
