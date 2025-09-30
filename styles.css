@@ -1,3 +1,4 @@
+
 *{ 
     margin: 0; 
     padding: 0; 
@@ -9,8 +10,8 @@ body {
     width: 100%;
     background-size: 100%, 100%;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffe8d1ff;
+    color: #68c3d4ff;
     line-height: 1.6;
     padding: 20px;
 }
@@ -28,7 +29,7 @@ nav {
     display:grid;
     grid-auto-flow: column;
     justify-content: center;
-    background: #e2e2e2;
+    background: #68c3d4ff;
     padding: 10px 0;
     border-radius: 5px;
 }
@@ -44,8 +45,8 @@ nav a:hover {
 /* main content styles */
 .main{
     display:grid;
-    grid-auto-columns:min-max(200px, 1fr);
-    gap: 1rem;
+    grid-template-columns:min-max(200px, 1fr);
+    gap: 2rem;
 }
 
 @media screen and (min-width:600px){
@@ -90,7 +91,7 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #e2e2e2;
     font-size: 0.9em;
-    color: #777;
+    color: #68c3d4ff;
     bottom:0;
     width:100%;
 }
