@@ -43,9 +43,9 @@ nav a:hover {
 }
 
 /* main content styles */
-.main{
+.Main{
     display:grid;
-    grid-template-columns:min-max(200px, 1fr);
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
