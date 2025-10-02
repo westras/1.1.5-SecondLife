@@ -50,23 +50,19 @@ nav a:hover {
 }
 
 @media screen and (min-width:600px){
-  .main{
-    grid-template-columns:repeat(2, 1fr);
+  .Main{
+    grid-template-columns:repeat(1, 1fr);
   }
 
 }
-@media screen and (min-width:950px){
-  .main{
-    grid-template-columns:repeat(3, 1fr);
-  }
-}
+
 @media screen and (min-width:1200px){
-  .main{
-    grid-template-columns:repeat(4, 1fr);
+  .Main{
+    grid-template-columns:repeat(2, 1fr);
   }
 }
 @media print{
-  .main{
+  .Main{
     grid-template-columns:1fr;
   }
 }
