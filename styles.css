@@ -23,7 +23,7 @@ header {
     top: 0;
 }
 
-/* Navigation styles/*/
+
 nav {
     position: static;
     display:grid;
@@ -42,7 +42,7 @@ nav a:hover {
     color: #007BFF;
 }
 
-/* main content styles */
+
 .Main{
     display:grid;
     grid-template-columns: 1fr;
@@ -104,7 +104,7 @@ footer {
     overflow-y:auto;
 }
 
-/* Scrollbar styles */
+
 .HeadToFoot::-webkit-scrollbar {
     width: 8px;
 }
@@ -121,7 +121,7 @@ footer {
 .HeadToFoot::-webkit-scrollbar-track:hover {
     background: #e2e2e2;
 }
-/* Responsive adjustments */
+
 @media (max-width: 600px) {
     body {
         padding: 10px;
@@ -133,7 +133,7 @@ footer {
         margin: 10px 0;
     }
 }
-/* End of styles */
+
 li{
 
     list-style:none;
@@ -151,4 +151,4 @@ img{
     display:block;
     margin:0 auto;
 }
-/* End of styles */
+
